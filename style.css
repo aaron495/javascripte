@@ -1,0 +1,49 @@
+#menu li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  
+  #menu li a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+  }
+  
+  #menu li a:hover {
+    color: #ff0000; /* Change la couleur au survol */
+  }
+  #menu li.hovered {
+    background-color: #ff0000; /* Change la couleur de fond au survol */
+    color: #fff; /* Change la couleur du texte au survol */
+  }
+
+  #menu{
+    background-color: rgb(253, 251, 255);
+    height: 70px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .text-overlay h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  .text-overlay p {
+    font-size: 2 0px;
+  }
+  
