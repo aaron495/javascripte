@@ -5,21 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <title>Document</title>
     <script>
-       $(document).ready(function(){
-            
-            $(".one").click(function(){
-                $('img [src=naruto.jfif]').hide();
-                var naruto=$("img [src=naruto.jfif]").val();
-                if(naruto>0){
-                    $(".one").show("img [src=naruto.jfif]");
-                }
-            });
-        });
+       $(document).ready(function() {
+      $('.fade-in-text').fadeToggle(3000); 
+     
+     
+});
 
-
+    
+        
 
 
     </script>
@@ -31,16 +29,76 @@
         <li><a href="#">À propos</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Partenaires</a></li>
       </ul>
       
 
       <div class="image-container">
         <img src="image.png" alt="Description de l'image">
         <div class="text-overlay">
-          <p>DYNAMIC WEB CONSULTING</p>
-          <p>THE BEST FULL STACK WEB CONSULTING</p>
+          <p class="fade-in-text">DYNAMIC WEB CONSULTING</p>
+          <h4 class="fade-in-text">BEST FULL STACK WEB CONSULTING</h4> 
         </div>
       </div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+      <div class="list">
+         <h2 class="one">Web Services</h2>
+         
+         
+         <p class="two">Nous avons creer des solutions integrer qui sont hautement interactives et peuvent etre deployes facilement dans votre environnement</p>
+      </div>
+
+      <br>
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+        
+      </div>
+      <div class="image-grid">
+      
+        
+          <div class="image-item">
+            <img class="" src="project-3.jpg" alt="Image 1"data-aos="zoom-in"  >
+            <h4 class="oui">UI/UX DESIGNING</h4>
+            <p>We provide with exemplary UI/UX design services by rendering.</p>
+          </div>
+          <div class="image-item">
+            <img class="" src="image4.jpg" alt="Image 2"data-aos="zoom-in"   >
+          <h4 class="oui">DATA SCIENCE</h4>
+          <p>Our Data Science Services provides insights & intelligence to.</p>
+          </div>
+          <div class="image-item">
+            <img class="" src="image5.jpg" alt="Image 3"data-aos="zoom-in"  >
+            <h4 class="oui">SOFTWARE DEVELOPMENT</h4>
+            <p>We offer top-notch software development services</p>
+          </div>
+          <div class="image-item">
+            <img class="" src="image1.jpg" alt="Image 4"data-aos="zoom-in"  >
+            <h4 class="oui">MOBILE APP DEVELOPMENT</h4>
+            <p>Leveraging our mobile application development teams to develop best App’s</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="background-image">
+          
+          <h1 data-aos="zoom-out-right">CONTACT US TODAY AND RECEIVE A FREE ESTIMATE</h1>
+        
+        </div>
+        
+
+      
+      
       
  
       
